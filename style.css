@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-comp-container {
+    position: relative;
+    height: 426px;
+}
+
+.comp-img {
+    position: absolute;
+    /*width: auto;
+    height: auto;*/
+    overflow: hidden;
+}
+
+.comp-img img {
+    /*display: block;
+    vertical-align: middle;*/
+}
+
+.comp-slider {
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: rgb(97, 97, 97);
+    cursor: ew-resize;
+    width: 64px;
+    height: 64px;
+}
